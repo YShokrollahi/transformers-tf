@@ -42,7 +42,7 @@ Clone the repository and install the package using pip:
 
 ```bash
 git clone https://github.com/YShokrollahi/transformers-tf.git
-cd transformer_package
+cd transformers-tf
 pip install -e .
 ```
 
