@@ -41,7 +41,7 @@ The dataset used is the `ted_hrlr_translate/pt_to_en` dataset from TensorFlow Da
 Clone the repository and install the package using pip:
 
 ```bash
-git clone https://github.com/yourusername/transformer_package.git
+git clone https://github.com/YShokrollahi/transformers-tf.git
 cd transformer_package
 pip install -e .
 ```
