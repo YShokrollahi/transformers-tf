@@ -41,9 +41,9 @@ The dataset used is the `ted_hrlr_translate/pt_to_en` dataset from TensorFlow Da
 Clone the repository and install the package using pip:
 
 ```bash
-git clone https://github.com/yourusername/transformer_package.git
-cd transformer_package
-pip install -e .
+git clone https://github.com/YShokrollahi/transformers-tf.git
+cd transformers-tf
+pip install .
 ```
 
 ## Usage
@@ -72,7 +72,7 @@ You can use the package to translate sentences as follows:
 
 ```python
 from transformer.train import train_transformer
-
+```
 # Train the model
 transformer, tokenizer_pt, tokenizer_en = train_transformer(EPOCHS=5)
 
@@ -117,7 +117,5 @@ test_sentences = [
 for sentence in test_sentences:
     translated_sentence = translate(sentence)
     print(f'Input: {sentence}')
-    print(f'Translation: {translated_sentence}
-')
-```
-
+    print(f'Translation: {translated_sentence}')
+\`\`\`
