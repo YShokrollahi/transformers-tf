@@ -2,6 +2,7 @@ import tensorflow as tf
 from transformer.model import Transformer
 from transformer.data_loader import load_dataset
 from transformer.layers import positional_encoding
+import time
 
 class CustomSchedule(tf.keras.optimizers.schedules.LearningRateSchedule):
     def __init__(self, d_model, warmup_steps=4000):
