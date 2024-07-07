@@ -40,19 +40,19 @@ The dataset used is the `ted_hrlr_translate/pt_to_en` dataset from TensorFlow Da
 
 Clone the repository and install the package using pip:
 
-\`\`\`bash
+```bash
 git clone https://github.com/YShokrollahi/transformers-tf.git
 cd transformers-tf
 pip install .
-\`\`\`
+```
 
 ## Usage
 
 To train the model, run the training script:
 
-\`\`\`bash
+```bash
 train_transformer
-\`\`\`
+```
 
 ### Training
 
@@ -62,17 +62,17 @@ The training script will load the dataset, initialize the Transformer model, and
 
 To run the tests, execute:
 
-\`\`\`bash
+```bash
 python -m unittest discover tests
-\`\`\`
+```
 
 ## Example Usage
 
 You can use the package to translate sentences as follows:
 
-\`\`\`python
+```python
 from transformer.train import train_transformer
-
+```
 # Train the model
 transformer, tokenizer_pt, tokenizer_en = train_transformer(EPOCHS=5)
 
