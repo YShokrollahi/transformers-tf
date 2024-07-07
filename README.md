@@ -43,7 +43,7 @@ Clone the repository and install the package using pip:
 ```bash
 git clone https://github.com/YShokrollahi/transformers-tf.git
 cd transformers-tf
-pip install -r requirements.txt
+pip install .
 ```
 
 ## Usage
@@ -53,6 +53,8 @@ To train the model, run the training script:
 ```bash
 train_transformer
 ```
+
+
 
 ### Training
 
