@@ -1,7 +1,7 @@
 
 # Transformer Package
 
-This package provides a TensorFlow implementation of a Transformer model for translation tasks. It includes data loading, model definition, and training scripts.
+This package provides a TensorFlow implementation of a Transformer model for translation tasks. It includes data loading, model definition, and training scripts and docs as well.
 
 ## Model Overview
 
