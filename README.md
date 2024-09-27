@@ -1,5 +1,5 @@
 
-# Transformer Packages for smaples and ready to use
+# Transformer Packages for smaples and ready to use for different purposes
 
 This package provides a TensorFlow implementation of a Transformer model for translation tasks. It includes data loading, model definition, and training scripts and docs as well.
 
