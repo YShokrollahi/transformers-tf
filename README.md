@@ -3,7 +3,7 @@
 
 This package provides a TensorFlow implementation of a Transformer model for translation tasks. It includes data loading, model definition, and training scripts and docs as well.
 
-## Model Overview
+## Model Overview and architecture
 
 The Transformer model is a neural network architecture introduced in the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762) by Vaswani et al. It relies entirely on self-attention mechanisms to compute representations of its input and output without using sequence-aligned RNNs or convolution.
 
